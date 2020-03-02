@@ -1,0 +1,18 @@
+export(noNA)
+S3method(noNA, logical)
+S3method(noNA, integer)
+S3method(noNA, numeric)
+S3method(noNA, character)
+S3method(noNA, complex)
+S3method(noNA, raw)
+S3method(noNA, factor)
+S3method(noNA, default)
+
+export(noNaN)
+S3method(noNaN, numeric)
+S3method(noNaN, complex)
+S3method(noNaN, default)
+
+export(noNULL)
+S3method(noNULL, list)
+S3method(noNULL, default)

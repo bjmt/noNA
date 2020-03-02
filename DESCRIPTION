@@ -1,0 +1,12 @@
+Package: noNA
+Title: Functions to leave out missing values
+Version: 0.0.1
+Authors@R:
+    person(given = c("Benjamin", "Jean-Marie"),
+           family = "Tremblay",
+           role = c("aut", "cre"),
+           email = "benjmtremblay@gmail.com")
+Description: Provides the noNA, noNaN and noNULL functions to leave out missing
+  or NULL values from basic data types.
+License: MIT + file LICENSE
+Encoding: UTF-8
