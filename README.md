@@ -2,6 +2,14 @@
 
 Provides three functions: `noNA()`, `noNaN()`, and `noNULL()` to leave out missing values from some basic data types.
 
+## Installation
+
+```r
+remotes::install_github("bjmt/noNA")
+```
+
+## Usage
+
 `noNA()` and `noNaN()` only work with 1D vectors; `noNULL()` only works with lists.
 
 ```r
